@@ -4,3 +4,5 @@ secret
 .state
 .git/
 .vscode
+.bak
+.lastStarted
