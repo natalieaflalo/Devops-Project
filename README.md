@@ -10,6 +10,8 @@
 
 4. Use command `docker-compose up` to create the containers.
 
-5. Go to http://localhost:8090/ to Config jenkins 
+5. Make first configuration to jenkins.
 
-6. go to http://localhost:8888/ to Config tomcat
+6. Go to http://localhost:8090/ to Config jenkins 
+
+7. go to http://localhost:8888/ to Config tomcat
