@@ -8,9 +8,9 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-public class guru_login extends HttpServlet {
+public class login extends HttpServlet {
 
-    public guru_login() {
+    public login() {
         super();
     }
 
@@ -19,12 +19,12 @@ public class guru_login extends HttpServlet {
 		String password = request.getParameter("password");
 		if(username.isEmpty() || password.isEmpty() )
 		{
-			RequestDispatcher req = request.getRequestDispatcher("register_3.jsp");
+			RequestDispatcher req = request.getRequestDispatcher("registerFirst.jsp");
 			req.include(request, response);
 		}
 		else
 		{
-			RequestDispatcher req = request.getRequestDispatcher("register_4.jsp");
+			RequestDispatcher req = request.getRequestDispatcher("registerSecond.jsp");
 			req.forward(request, response);
 		}
 	}
