@@ -1,0 +1,6 @@
+.xml
+.cache
+secret
+.state
+.git/
+.vscode
