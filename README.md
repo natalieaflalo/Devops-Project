@@ -3,11 +3,13 @@
 ## Instructions:
 1. Clone the git reposetory
    `git clone https://github.com/natalieaflalo/Devops-Project.git`
-   
-2. Create a local directory named "devops-project" or change the volume settings in the docker-compose.yml to a directory of your choosing.
 
-3. Change your location in CMD to the file mentioned before using command `cd <file-name>`
+2. Change your location in CMD to the cloned directory using `cd Devops-Project`
 
-4. run the command `sudo chown -R 1000:1000 .` to allow prommitions for jenkins-container to the file.
+3. run the command `sudo chown -R 1000:1000 .` to allow prommitions for jenkins-container to the directory.
 
-5. Use command `docker-compose up`
+4. Use command `docker-compose up` to create the containers.
+
+5. Go to http://localhost:8090/ to Config jenkins 
+
+6. go to http://localhost:8888/ to Config tomcat

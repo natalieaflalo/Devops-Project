@@ -3,7 +3,7 @@ services:
     image: jenkins/jenkins:latest
     container_name: jenkins-container
     ports:
-      - "8080:8080"
+      - "8090:8080"
     volumes:
       - .:/var/jenkins_home
   tomcat:
