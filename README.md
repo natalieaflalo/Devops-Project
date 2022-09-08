@@ -2,7 +2,7 @@
 
 ## Instructions:
 1. Clone the git reposetory
-   `git clone https://github.com/EASS-HIT-2022/VetClinic-EASS-Project.git`
+   `git clone https://github.com/natalieaflalo/Devops-Project.git`
    
 2. Create a local directory named "Devops-Project" or change the volume settings in the docker-compose.yml to a directory of your choosing.
 
