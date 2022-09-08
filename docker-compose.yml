@@ -5,11 +5,11 @@ services:
     ports:
       - "8080:8080"
     volumes:
-      - ./devops-project:/var/jenkins_home
+      - .:/var/jenkins_home
   tomcat:
     image: tomcat:latest
     ports:
       - 8888:8080
     volumes:
-      - ./devops-project:/usr/local/tomcat/webapps/status
+      - .:/usr/local/tomcat/webapps/status
     container_name: tomcat-container
