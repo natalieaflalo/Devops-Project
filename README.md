@@ -4,7 +4,7 @@
 1. Clone the git reposetory
    `git clone https://github.com/natalieaflalo/Devops-Project.git`
    
-2. Create a local directory named "Devops-Project" or change the volume settings in the docker-compose.yml to a directory of your choosing.
+2. Create a local directory named "devops-project" or change the volume settings in the docker-compose.yml to a directory of your choosing.
 
 3. Change your location in CMD to the file mentioned before using command `cd <file-name>`
 
