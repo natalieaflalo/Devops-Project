@@ -5,8 +5,8 @@
 <title>Login Form</title>
 </head>
 <body>
-<form action="guru_login" method="post">
-		<table style="with: 50%">
+<form action="login" method="post">
+		<table style="width: 50%">
 
 			<tr>
 				<td>UserName</td>
