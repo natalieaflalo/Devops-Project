@@ -11,9 +11,10 @@
 			<tr>
 				<td>
 				<% String username = request.getParameter("username"); %>
-				<% String language = request.getParameter("dropdownLan"); %>
+				<% String userLanguage = request.getParameter("dropdownLan"); %>
+
 				<a>Welcome <% out.println(username); %> !!!! You have logged in.</a>
-				<a>My language is: <% out.println(language); %></a>
+				<a>Your chosen language is: <% out.println(userLanguage); %></a>
 				</td>
 			</tr>
 			<tr>
