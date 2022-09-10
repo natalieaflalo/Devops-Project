@@ -13,8 +13,8 @@
 				<% String username = request.getParameter("username"); %>
 				<% String userLanguage = request.getParameter("dropdownLan"); %>
 
-				<a>Welcome <% out.println(username); %> !!!! You have logged in.</a>
-				<a>Your chosen language is: <% out.println(userLanguage); %></a>
+				<p>Welcome <% out.println(username); %> !!!! You have logged in.</p>
+				<p>Your chosen language is: <% out.println(userLanguage); %></p>
 				</td>
 			</tr>
 			<tr>

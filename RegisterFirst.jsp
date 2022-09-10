@@ -17,7 +17,7 @@
 				<tr>
 					<td>
 						Language:
-						<select id="dropdownLan">
+						<select name="dropdownLan">
 							<option value="english" selected>English</option>
 							<option value="spanish">Spanish</option>
 							<option value="french">French</option>
