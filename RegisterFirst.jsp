@@ -7,8 +7,8 @@
 	</head>
 	<body>
 		<form action="RegisterSecond.jsp" method="post">
-			<h1>Natalie and Linoy DevOps Project</h1>
-			<table style="width: 50%", class="center">
+			<table class="center">
+				<h1>Natalie and Linoy DevOps Project</h1>
 				<tr>
 					<td>UserName: <input type="text" name="username" /></td>
 				</tr>
