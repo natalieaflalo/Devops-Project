@@ -21,7 +21,7 @@
 							<option value="English" selected>English</option>
 							<option value="Spanish">Spanish</option>
 							<option value="French">French</option>
-							<option value="Germany">Germany</option>
+							<option value="German">German</option>
 						</select>
 					</td>
 				</tr>
