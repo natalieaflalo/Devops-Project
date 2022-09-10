@@ -6,7 +6,7 @@
 		<title>Login Form</title>
 	</head>
 	<body>
-		<form action="login" method="post">
+		<form action="RegisterSecond" method="post">
 			<table style="width: 50%">
 				<tr>
 					<td>UserName: <input type="text" name="username" /></td>
