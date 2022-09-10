@@ -15,12 +15,15 @@
 					<td>Password: <input type="password" name="password" /></td>
 				</tr>
 				<tr>
-					<select id="dropdown">
-						<option value="english" selected>English</option>
-						<option value="spanish">Spanish</option>
-						<option value="french">French</option>
-						<option value="germany">Germany</option>
-					  </select>
+					<td>
+						Language:
+						<select id="dropdownLan">
+							<option value="english" selected>English</option>
+							<option value="spanish">Spanish</option>
+							<option value="french">French</option>
+							<option value="germany">Germany</option>
+						</select>
+					</td>
 				</tr>
 			</table>
 			<input type="submit" value="Login"/>
