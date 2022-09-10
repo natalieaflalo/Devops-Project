@@ -18,10 +18,10 @@
 					<td>
 						Language:
 						<select name="dropdownLan">
-							<option value="english" selected>English</option>
-							<option value="spanish">Spanish</option>
-							<option value="french">French</option>
-							<option value="germany">Germany</option>
+							<option value="English" selected>English</option>
+							<option value="Spanish">Spanish</option>
+							<option value="French">French</option>
+							<option value="Germany">Germany</option>
 						</select>
 					</td>
 				</tr>
