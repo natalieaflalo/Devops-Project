@@ -13,7 +13,7 @@
 				<% String username = request.getParameter("username"); %>
 				<% String language = request.getParameter("dropdownLan"); %>
 				<a>Welcome <% out.println(username); %> !!!! You have logged in.</a>
-				<a>My language is: <% out.println(language) %></a>
+				<a>My language is: <% out.println(language); %></a>
 				</td>
 			</tr>
 			<tr>
