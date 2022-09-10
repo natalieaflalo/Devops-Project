@@ -19,12 +19,12 @@ public class login extends HttpServlet {
 		String password = request.getParameter("password");
 		if(username.isEmpty() || password.isEmpty() )
 		{
-			RequestDispatcher req = request.getRequestDispatcher("registerFirst.jsp");
+			RequestDispatcher req = request.getRequestDispatcher("RegisterFirst.jsp");
 			req.include(request, response);
 		}
 		else
 		{
-			RequestDispatcher req = request.getRequestDispatcher("registerSecond.jsp");
+			RequestDispatcher req = request.getRequestDispatcher("RegisterSecond.jsp");
 			req.forward(request, response);
 		}
 	}

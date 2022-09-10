@@ -5,7 +5,7 @@
 <title>Login Form</title>
 </head>
 <body>
-<form action="RegisterSecond.jsp" method="post">
+<form action="login" method="post">
 		<table style="width: 50%">
 
 			<tr>
