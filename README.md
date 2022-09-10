@@ -14,4 +14,4 @@
 
 6. Go to http://localhost:8090/ to Config jenkins 
 
-7. go to http://localhost:8888/ to Config tomcat
+7. Go to http://localhost:8888/workspace/Devops-Project-Login-JSP/RegisterFirst.jsp to see tomcat application
