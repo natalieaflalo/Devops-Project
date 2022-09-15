@@ -15,3 +15,5 @@
 6. Go to http://localhost:8090/ to Config jenkins 
 
 7. Go to http://localhost:8888/workspace/Devops-Project-Login-JSP/RegisterFirst.jsp to see tomcat application
+
+8. Test Jenkins
