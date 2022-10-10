@@ -10,8 +10,16 @@
 
 4. Use command `docker-compose up` to create the containers.
 
-5. Make first configuration to jenkins.
+5. Go to http://localhost:8090/ to login to Jenkins.
 
-6. Go to http://localhost:8090/ to Config jenkins 
+6. Use username: "guest" and password "1234" to enter.
 
-7. Go to http://localhost:8888/workspace/Devops-Project-Login-JSP/RegisterFirst.jsp to see tomcat application
+7. Build the jobs.
+
+8. Go to http://localhost:8888/jobs/Devops-Project-Login-JSP/workspace/RegisterFirst.jsp to see tomcat application
+
+
+## Notes:
+   - If you want to configure jenkins by yourself, delete all the files exept for the "jobs" file before running docker compose.
+   - The job updates automatically when this reposetory updates. If you want the jobs to link to your reposetory, change the URL in the jobs' configuration.
+
