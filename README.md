@@ -23,3 +23,9 @@
    - If you want to configure jenkins by yourself, delete all the files exept for the "jobs" file before running docker compose.
    - The job updates automatically when this reposetory updates. If you want the jobs to link to your reposetory, change the URL in the jobs' configuration.
 
+## Photos:
+
+![Tomcat Web Page 1](https://user-images.githubusercontent.com/86556267/194951743-7f58c418-3a92-4981-9ad4-f428151dbf23.png)
+
+![Tomcat Web Page 2](https://user-images.githubusercontent.com/86556267/194951769-e5c3928f-106b-4562-8350-205ca106d8d5.png)
+
